@@ -1,0 +1,55 @@
+{
+  "name": "SmartickSDK",
+  "version": "1.0.0",
+  "description": "Official SDK for Smartick IoT ecosystem. Connect your Arduino/ESP8266/ESP32 devices to Smartick mobile app.",
+  "keywords": [
+    "smartick",
+    "iot",
+    "smart-home",
+    "mqtt",
+    "esp8266",
+    "esp32",
+    "arduino",
+    "led",
+    "sensor",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartick-iot/SmartickSDK.git"
+  },
+  "authors": [
+    {
+      "name": "Smartick Team",
+      "email": "dev@smartick.io",
+      "url": "https://smartick.io"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://smartick.io/sdk",
+  "frameworks": ["arduino"],
+  "platforms": ["esp8266", "esp32"],
+  "dependencies": [
+    {
+      "name": "ArduinoJson",
+      "version": "^6.19.4"
+    },
+    {
+      "name": "WiFiManager",
+      "version": "^0.16.0"
+    },
+    {
+      "name": "PubSubClient",
+      "version": "^2.8"
+    },
+    {
+      "name": "FastLED",
+      "version": "^3.5.0"
+    }
+  ],
+  "examples": [
+    "examples/BasicDevice/BasicDevice.ino",
+    "examples/SmartLamp/SmartLamp.ino",
+    "examples/SensorDevice/SensorDevice.ino"
+  ]
+}

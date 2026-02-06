@@ -1,0 +1,44 @@
+
+---
+
+### **14. keywords.txt**
+
+```txt
+#######################################
+# Syntax Coloring Map For SmartickSDK
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SmartickDevice	KEYWORD1
+DeviceState	KEYWORD1
+SmartickEffects	KEYWORD1
+SmartickWebServer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+loop	KEYWORD2
+setCommandHandler	KEYWORD2
+setConnectHandler	KEYWORD2
+sendDeviceInfo	KEYWORD2
+sendDeviceState	KEYWORD2
+setPower	KEYWORD2
+setBrightness	KEYWORD2
+setColor	KEYWORD2
+setSpeed	KEYWORD2
+onCommand	KEYWORD2
+onConnect	KEYWORD2
+onDisconnect	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+CMD_POWER	LITERAL1
+CMD_BRIGHTNESS	LITERAL1
+CMD_COLOR	LITERAL1
+CMD_SPEED	LITERAL1
+CMD_GET_INFO	LITERAL1
+CMD_GET_STATE	LITERAL1
